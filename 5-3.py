@@ -26,7 +26,6 @@ def solution(S, P, Q):
         c_count.append(c)
         g_count.append(g)
         t_count.append(t)
-    print(a_count,c_count,g_count,t_count)
     
     for i in range(len(Q)):
         if a_count[Q[i]+1] - a_count[P[i]] > 0:
